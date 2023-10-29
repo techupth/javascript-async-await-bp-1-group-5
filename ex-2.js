@@ -13,3 +13,7 @@ let getJohnProfile = () => {
 };
 
 // Start coding here
+const result = (error) => {
+  console.log(error);
+}
+getJohnProfile().catch(result);
